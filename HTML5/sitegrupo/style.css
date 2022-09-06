@@ -1,0 +1,68 @@
+body{
+    background-color: #deb887;
+    margin: 0;
+    
+}
+.logo{
+    text-align: center;
+    color: #fcfcfc;
+    background-color: #422704 ;
+    padding: 12px 16px;
+   
+}
+.navegacao ul{
+    background-color: #1d1101;
+    margin: 0;
+    padding: 10px 5px;
+}
+.navegacao ul li{
+    display: inline;
+    margin: 0 0 0 25px;
+
+}
+.navegacao a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+.txt{
+    text-align: center;
+    font-size: 17px;
+    margin: 20px;
+}
+.imagem1, .imagem2, .imagem3{
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+}
+.rodape {
+   text-align: center;
+   font-weight: bold;
+   font-size: 18px;
+}
+.tipos{
+text-justify: auto;
+
+}
+.tipos li{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 20px;
+}
+table{
+    border: 3px solid #291b01;
+    margin: auto;
+}
+.promo h2{
+    text-align: center;
+}
+.txt1{
+    text-align: center;
+    font-size: 35px;
+}
+.sobre{
+    margin: 20px;
+}
+.sobre h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Formulário</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Exemplo de Formulário</h1>
+    </header>
+    <form>
+        <fieldset>
+            <legend>Dados do Usuario</legend>
+            <label for="name">
+                Nome:
+            </label>
+            <input type="text" id="name" placeholder="Nome Completo" size="35px" required><br><br>
+            <!-- required deixar como obrigatorio -->
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="usuario@ios.com" size="35px" required><br>
+            <p>Onde você mora?</p>
+            <input type="radio" name="cidade" id="cidade">
+            <label for="cidade">Cidade</label>
+            <input type="radio" name="interior" id="interior">
+            <label for="interior">Interior</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Outras informações</legend>
+            <p>Qual é o meio de transporte?</p>
+            <input type="checkbox" name="metro" id="metro" checked>
+            <label for="metro">Metrô</label>
+            <input type="checkbox" name="ônibus" id="ônibus">
+            <label for="ônibus">Ônibus</label><br><br>
+            <label for="time">Selecione o seu time:</label>
+            <select name="time" id="time">
+                <option value="Times">Times</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Palmeiras">Palmeiras</option>
+                <option value="Corinthias">Corinthias</option>
+                <option value="Santos">Santos</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Pesquisa de Sugestões</legend>
+            <label for="sugestoes">
+                <p>Sugestões, elogios e criticas:</p>
+            </label>
+            <textarea name="sugestoes" id="sugestoes" cols="35" rows="10"></textarea><br>
+            <input type="submit" value="Enviar">
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

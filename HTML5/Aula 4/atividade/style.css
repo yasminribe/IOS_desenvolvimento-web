@@ -1,0 +1,12 @@
+
+header h1, footer{
+    text-align: center; /* centralizar texto */
+}
+section .imagem{
+    text-align: center;
+}
+section .txt{
+    text-align: justify;
+    border: 3px solid #136907 ;
+    padding: 0px 10px;
+}
