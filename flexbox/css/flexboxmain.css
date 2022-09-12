@@ -1,0 +1,30 @@
+.FlexBoxExemplo{
+display: flex;
+justify-content: space-evenly; /* alinhamento na horizotal */
+align-items: center; /* alinhamento da vertical  */
+flex-wrap: wrap;/* coloca um em baixo do outro  */
+/*flex-wrap: wrap-reverse; coloca um em baixo do outro invertido*/
+flex-direction: column; /* direção */
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+   /* position: relative;  é usado quando queremos altera a posição do elemento, ele não muda de posição inicial mas quando aplicamos top:50px e left: 50px sua posição se altera 50px de cima para baixo 
+    top: 50px;
+    left : 50px;*/
+    background-color: #da9020;
+    
+}
+
+.title{
+    margin: 10px 0 20px 8px;
+    font-weight: bold;
+}
+.texto{
+    margin: 10px 8px 20px 8px;
+    text-align: justify;
+
+    
+}
