@@ -5,6 +5,7 @@
 }
 body{
     background-color: #000;
+    color: #fff;
 }
 .menu{
     display: flex;
@@ -33,23 +34,27 @@ body{
 main{
     width: 1024px;
     margin: 0 auto;
+    background-color: #000;
 }
 .conteudo{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #000;
-    color: #fefefe;
+    position: relative;
+    top: 50px;
+   
 }
 .conteudo img {
-    margin-top: 5%;
     width: 40%; 
 }
 .aproveite{
-    margin: 8% 0 0 8%;
+    margin: 8% 0 8% 8%;
     text-align: center;
 }
-.aproveite h2{
+#alinhamento{
+    margin: 8% 10% 8% 0;
+}
+.aproveite h1{
     margin-bottom: 20px;
     font-size: 2em;
     text-transform: uppercase;
