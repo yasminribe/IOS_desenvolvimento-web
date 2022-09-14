@@ -62,3 +62,53 @@ main{
 .aproveite p{
    text-align: justify;
 }
+
+@media (max-width: 500px){
+    .menu{
+        height: 12vh;
+    }
+    .nav-bar{
+        display:none;
+    }
+    #logo{
+        color: #ec1c1c;
+    }
+    .nav-bar  li {
+        padding: 20px;
+        color: #fefefe;
+    }
+    .banner{
+     background-image: url(../img/banner-1.jpg);
+     height: 50vh;
+     width: 100%;
+     background-size: cover;
+    }
+    main{
+        width: 100%;
+        background-color: #000;
+    }
+    .conteudo{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+       
+    }
+    .conteudo img{
+        width: 90%;
+    }
+    #media{
+        flex-wrap: wrap;
+    }
+    .aproveite , #alinhamento{
+       margin: 15px 5%;
+       text-align: center;
+    }
+    .aproveite h1{
+        margin: 20px 0;
+        font-size: 1.3em;
+    }
+    .aproveite p{
+        font-size: 1em;
+        line-height: 1.3em;
+     }
+}
