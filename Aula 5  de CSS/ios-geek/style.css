@@ -20,8 +20,9 @@
     list-style-type: none;
 }
 .menu ul li {
-    padding-left: 1rem;
+    padding: 1em;
     font-size: 1.3rem;
+    
 }
 
 .principal{
