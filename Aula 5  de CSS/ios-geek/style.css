@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #010101;
+    color: #ffff;
+}
+.cabecalho h1 {
+    text-transform: uppercase;
+    color: #d80303;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+}
+.menu ul li {
+    margin: 15px;
+    font-size: 1.3rem;
+}
+
+.principal{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.section-card{
+    margin: 15px 0;
+
+}

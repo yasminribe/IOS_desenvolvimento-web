@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+}
+
+.border{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-width: 20px;
+    border-color: brown;
+}
+
+.bordaImagem1{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 20px solid transparent;
+    border-image: url(Leonardo.webp) 25% round;
+}
+
+.bordaImagem2{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 20px solid transparent;
+    border-image: url(Leonardo.webp) 50% round;
+}
+
+.bordaImagem3{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 20px solid transparent;
+    border-image: url(Leonardo.webp) 40% stretch;
+}
+
+.bordaImagem4{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 20px solid transparent;
+    border-image: url(Leonardo.webp) 100% round;
+}
+
+.bordaImagem5{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 20px solid transparent;
+    border-image: url(Leonardo.webp) 25% stretch;
+}
+
+.bordaImagem6{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 20px solid transparent;
+    border-image: url(Leonardo.webp) 40% repeat;
+}
+
