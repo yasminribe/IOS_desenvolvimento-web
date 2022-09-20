@@ -1,0 +1,14 @@
+.principal{
+    display: grid;
+    grid-template-columns: 70% 30%; /* Separa em colunas */
+    gap: 1rem ;
+}
+
+.principal article{
+    background-color: #eee;
+    padding: 1rem;
+}
+
+.principal article:nth-child(2n+1){
+    background-color: #5c5c5c;
+}

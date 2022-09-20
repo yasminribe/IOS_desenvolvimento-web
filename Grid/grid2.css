@@ -1,0 +1,21 @@
+.principal{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: 200px 500px 300px; */
+    grid-auto-rows: minmax(100px,auto);/* todos os tamanhos das linhas ficam auto respeitando o limite */
+    gap: 1rem;
+}
+
+.principal div{
+    background-color: #eee;
+    padding: 1rem;
+
+}
+.exemplos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0.5rem;
+}
+.exemplos div{
+    background-color: #5ad45a;
+}

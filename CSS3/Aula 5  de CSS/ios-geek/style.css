@@ -24,7 +24,9 @@
     font-size: 1.3rem;
     
 }
-
+.menu-ham{
+   display: none;
+}
 .principal{
     max-width: 1024px;
     margin: 0 auto;
@@ -33,4 +35,23 @@
 .section-card{
     margin: 15px 0;
 
+}
+@media (max-width:400px){
+    .cabecalho{
+        justify-content: space-between;
+    }
+    .cabecalho h1 {
+        font-size: 1.2rem;
+        margin: 1rem;
+    }
+    .menu ul{
+        display: none;
+    }
+    .menu-ham {
+        display: block;
+        color: #d80303;
+        font-size: 1.5rem;
+        margin: 1rem;
+    }
+   
 }

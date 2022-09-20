@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos</title>
+    <link rel="stylesheet" href="exemplos.css">
+</head>
+<body>
+    <h1>GRID</h1>
+    <p>É uma ferramenta para dividir uma página em regiões principais ou definir o relacionamento de medidas de posicionamento e camadas entre diferentes componentes.</p>
+    <pre>
+        <code>
+            <h3>Exemplo 1:</h3>
+            <p>configura a largura das colunas  do grid </p>
+            <strong>.grid</strong> {
+                display: grid; 
+            }
+            <strong>.grid-template-columns-1</strong>{
+                grid-template-columns: repeat(4,100px);
+            }
+            
+        </code>
+    </pre>
+    <h1>grid-template-columns: repeat(4,100px);</h1>
+    <section class="grid grid-template-columns-1">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </section>
+    <h1>grid-template-columns: repeat(4,100px);</h1>
+    <section class="grid grid-template-columns-1">
+        <div class="item">Palavra teste</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">Palavra teste</div>
+    </section>
+    <pre>
+        <code>
+            <h3>Exemplo 2:</h3>
+            <p>Duas colunas são criadas sendo a segunda com o dobro do tamanho da primeira. <strong>FR</strong> é uma unidasde fracional. <br>O tamanho do conteúdo é respeitado, ou seja, se o conteúdo na primeira coluna for maior que o da segunda, a primeira será maior.</p>
+            <strong>.grid</strong> {
+                display: grid; 
+            }
+            <strong>.grid-template-columns-2</strong>{
+                grid-template-columns: 1fr 2fr;
+            }
+           
+        </code>
+        </pre>
+    <h1>grid-template-columns: 1fr 2fr;</h1>
+    <section class="grid grid-template-columns-2">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </section>
+    <h1>grid-template-columns: 1fr 2fr;</h1>
+    <section class="grid grid-template-columns-2">
+        <div class="item">PalavratesteGrandeRespeitada</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </section>
+
+    <pre>
+        <code>
+            <h3>Exemplo 3:</h3>
+            <p><strong>Minmax</strong> define um valor minimo e maximo para colunas, três colunas de são criadas, a primeira tera no minimo 200px de largura e no maximo 1fr <br>(isso significa que após 200px ele se expande da mesma forma que as outras colunas). As outras duas colunas vão ter 1fr. </p>
+            <strong>.grid</strong> {
+                display: grid; 
+            }
+            <strong>.grid-template-columns-3</strong>{
+                grid-template-columns:minmax(200px , 1fr) 1fr 1fr;
+            }
+            
+        </code>
+    </pre>
+    <h1>grid-template-columns:minmax(200px , 1fr) 1fr 1fr</h1>
+    <section class="grid grid-template-columns-3">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </section>
+    <h1>grid-template-columns:minmax(200px , 1fr) 1fr 1fr</h1>
+    <section class="grid grid-template-columns-3">
+        <div class="item">Palavra teste</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </section>
+    <h1>grid-template-columns:minmax(200px , 1fr) 1fr 1fr</h1>
+    <section class="grid grid-template-columns-3">
+        <div class="item">1</div>
+        <div class="item">Palavrateste</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </section>
+</body>
+</html>
