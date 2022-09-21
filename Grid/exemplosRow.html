@@ -9,19 +9,86 @@
 </head>
 <body>
     <div>
-        <h1>Grid-tamplate-rows : 50px 100px 50px 150px;</h1>
+        <h1>Grid-template-rows : 50px 100px 50px 150px;</h1>
     </div>
     <pre>
         <code>
             <h3>Exemplos 1: </h3>
+            <p>Cria 4 linhas no grid, sendo a primeira com 50px, segunda com 100px, terceira com 50px e quarta com 150px, <br>caso o grid necessite de mais linhas terão o tamanho de acordo com o conteúdo.</p>
 
             <strong>.grid</strong>{
                 display: grid;
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: repeat(2,1fr);
             }
+
+
+            <strong>.grid-template-rows-1</strong>{
+                grid-template-rows: 50px 100px 50px 150px;
+            }
+            
         </code>
     </pre>
-    <section class="grid grid-tamplate-rows-1">
+    <section class="grid grid-template-rows-1">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+    </section>
+
+    <div>
+        <h1>Grid-template-rows : repeat(2,100px);</h1>
+    </div>
+    <pre>
+        <code>
+            <h3>Exemplos 2: </h3>
+
+            <strong>.grid</strong>{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+            }
+
+
+            <strong>.grid-template-rows-1</strong>{
+                grid-template-rows: repeat(2,100px);
+            }
+            
+        </code>
+    </pre>
+    <section class="grid grid-template-rows-2">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+    </section>
+
+    <div>
+        <h1>Grid-template-rows : 1fr 2fr;</h1>
+    </div>
+    <pre>
+        <code>
+            <h3>Exemplos 2: </h3>
+            <p>criar 2 linhas no grid, sendo a segunda com cerca de duas vezes o tamanho da primeira.</p>
+            <strong>.grid</strong>{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+            }
+
+
+            <strong>.grid-template-rows-1</strong>{
+                grid-template-rows: 1fr 2fr;
+            }
+            
+        </code>
+    </pre>
+    <section class="grid grid-template-rows-3">
         <div class="item">1</div>
         <div class="item">2</div>
         <div class="item">3</div>
