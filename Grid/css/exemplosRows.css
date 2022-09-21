@@ -1,0 +1,20 @@
+/* Grid */
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* estilo grid */
+
+.item{
+    margin: 5px;
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.grid{
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
