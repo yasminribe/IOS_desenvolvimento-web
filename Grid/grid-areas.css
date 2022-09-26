@@ -30,7 +30,9 @@ h1{
     "sidenav section aside"
     "sidenav footer footer";
 }
-.grid-template-areas-2{
+@media (min-width: 300px) and (max-width:799px){
+
+.grid-template-areas-1, .grid-template-areas-2{
     grid-template-areas: 
     'logo logo'
     "nav nav"
@@ -38,11 +40,22 @@ h1{
     "sidenav aside"
     "footer footer";
 }
+
+}
 .grid-template-areas-3{
     grid-template-areas: 
     'sidenav logo nav'
     "sidenav section aside "
-    "sidenav section footer"
+    "sidenav section footer";
+}
+.grid-template-areas-4{
+    grid-template-columns: 30% 60% 10%;
+    grid-template-rows: 50px 150px 50px;
+    grid-template-areas: 
+    'logo nav nav'
+    "sidenav section aside "
+    "sidenav footer footer";
+    gap: 10px;
 }
 
 .logo{
