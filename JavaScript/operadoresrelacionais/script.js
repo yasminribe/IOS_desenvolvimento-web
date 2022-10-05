@@ -1,26 +1,26 @@
 /* Boolean */
 
 // Existem dois valores booleanos false ou true 
-/* var LulaEleito = false
+var LulaEleito = false
 var LulaEleito = true
 
 if (LulaEleito){
     console.log(`Vamos comer picanha`)
 }else{
     console.log(`Bolsonaro criou o pix kkkkk `)
-} */
+} 
 
-/* Operadores relacionais 
+/*  Operadores relacionais 
 
  == igualdade
  > maior
  < menor
  != diferente 
  >= maior ou igual
- <= menor ou igual
- */
+ <= menor ou igual */
 
-/*  let a = 1 , b=5 , c=2 , d=1;
+
+  let a = 1 , b=5 , c=2 , d=1;
 
 console.log(a > b);//false
 console.log(a < b);//true
@@ -29,14 +29,14 @@ console.log(b >= a);//true
 console.log(c <= b);//true
 console.log(d != a);//false
 console.log(d != b);//true
- */
+
 
 //Condições
 
 /* 
 if e else
 if é condição verdadeira ("se for verdade ... faça tal trem")
-else é a condição falsa ("se não ... é falsa uai")
+else é a condição falso ("se não ... é falsa uai") */
 
 if(condição){
     verdadeiro
@@ -73,12 +73,12 @@ let numero2 = Number(prompt(`Digite um número: `))
 let resultado = numero1 + numero2
 
 alert(resultado)
-*/
+
 
 
 //CONDICIONAIS ELSE IF
 
-/* var GraziPossuiGraduacao = true
+ var GraziPossuiGraduacao = true
 var GraziPossuiDoutorado = false
 
 if (GraziPossuiDoutorado){
@@ -87,7 +87,7 @@ if (GraziPossuiDoutorado){
     console.log(`Possui Graduação, mas não tem doutorado`)
 }else{
     console.log(`Grazi faz nada da vida`)
-} */
+} 
 
 var categoria = Number(prompt(`digite a categoria do produto`))
 
@@ -108,7 +108,7 @@ if(categoria == 1){
 
 //swith e case
 
-/* var corFavorita = 'Preto'
+ var corFavorita = 'Preto'
 
 switch(corFavorita){
     case  'Preto':
@@ -122,7 +122,7 @@ switch(corFavorita){
     case 'amarelo' : 
         console.log(`tudo golpe`)
         break;
-} */
+} 
 
 //operadores logicos && AND
 

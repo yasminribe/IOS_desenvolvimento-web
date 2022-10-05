@@ -1,6 +1,6 @@
 //Escreva um programa que leia dois numeros e que pergunte qual operação voce deseja realizar. Você deve poder calcular soma(+), subtração(-) e multiplicação(*).Exiba o resultado da operação solicitada.
 
-/* const numero1 = Number(prompt('Digite um numero:'))
+const numero1 = Number(prompt('Digite um numero:'))
 const numero2 = Number(prompt('Digite outro numero:'))
 const operador = prompt('Escolha uma operação +, -, * , /')
 
@@ -15,7 +15,7 @@ if(operador == "+"){
 }else{
     alert('Operador Inválido, digite um operador válido novamente!')
 }
- */
+
 
 // verifique se a sua idade é maior do que a de algum parente
 
