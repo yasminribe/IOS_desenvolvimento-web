@@ -5,15 +5,15 @@ const numero2 = Number(prompt('Digite outro numero:'))
 const operador = prompt('Escolha uma operação +, -, * , /')
 
 if(operador == "+"){
-    alert(numero1+numero2)
+    console.log(numero1+numero2)
 }else if ( operador == "-"){
-    alert(numero1-numero2)
+    console.log(numero1-numero2)
 }else if(operador == "*"){
-    alert(numero1*numero2)
+    console.log(numero1*numero2)
 }else if (operador == "/"){
-    alert(numero1 / numero2)
+    console.log(numero1 / numero2)
 }else{
-    alert('Operador Inválido, digite um operador válido novamente!')
+    console.log('Operador Inválido, digite um operador válido novamente!')
 }
 
 
