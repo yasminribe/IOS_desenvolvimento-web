@@ -5,15 +5,15 @@ const numero2 = Number(prompt('Digite outro numero:'))
 const operador = prompt('Escolha uma operação +, -, * , /')
 
 if(operador == "+"){
-    console.log(numero1+numero2)
+    alert(numero1+numero2)
 }else if ( operador == "-"){
-    console.log(numero1-numero2)
+    alert(numero1-numero2)
 }else if(operador == "*"){
-    console.log(numero1*numero2)
+    alert(numero1*numero2)
 }else if (operador == "/"){
-    console.log(numero1 / numero2)
+    alert(numero1 / numero2)
 }else{
-    console.log('Operador Inválido, digite um operador válido novamente!')
+    alert('Operador Inválido, digite um operador válido novamente!')
 }
 
 
@@ -23,12 +23,12 @@ const idade = prompt(`digite a sua idade: `)
 const minhaIdade = 26
 
 if(idade > minhaIdade){
-    console.log(`Parente Mais velho `)
+    alert(`Parente Mais velho `)
 }else if( idade == minhaIdade){
-    console.log(`Vocês tem a mesma idade `)
+    alert(`Vocês tem a mesma idade `)
 }
 else{
-    console.log(`Parente Mais novo`)
+    alert(`Parente Mais novo`)
 }
 
 //escreva um programa que pergunte a distancia que um passageiro deseja percorre em km. Calcule o preço da passagem cobrando 0,50 por km para viagens de até 200km, e 0,45 para viagens mais longas
@@ -38,7 +38,7 @@ let preçoAte200 = distancia * 0.50
 let precoAcima200 = distancia * 0.45
 
 if(distancia <= 200){
-    console.log(`Preço da passagem R$ ${preçoAte200}`)
+    alert(`Preço da passagem R$ ${preçoAte200}`)
 }else{
-    console.log(`Preço da passagem R$ ${precoAcima200}`)
+    alert(`Preço da passagem R$ ${precoAcima200}`)
 }
