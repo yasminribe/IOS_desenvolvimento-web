@@ -20,11 +20,14 @@ if(operador == "+"){
 // verifique se a sua idade é maior do que a de algum parente
 
 const idade = prompt(`digite a sua idade: `)
-let minhaIdade = 26
+const minhaIdade = 26
 
 if(idade > minhaIdade){
     console.log(`Parente Mais velho `)
-}else{
+}else if( idade == minhaIdade){
+    console.log(`Vocês tem a mesma idade `)
+}
+else{
     console.log(`Parente Mais novo`)
 }
 
