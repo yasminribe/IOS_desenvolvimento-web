@@ -44,3 +44,19 @@ let bg = menu.backgroundColor
 console.log(bg)
 
   
+
+//ARRAYS
+
+// é um grupo de valores geralmente relacionados. Servem para guardamos diferentes valores em uma unica variavel.
+
+let videoGames = ['PS4', 'SWITCH','XBOX']
+
+
+console.log(videoGames[0])
+videoGames.pop() //remove ultimo item
+videoGames.push ('3DS') // adiciona
+console.log(videoGames)
+
+//métodos e propriedades do array
+
+console.log(videoGames.length)
