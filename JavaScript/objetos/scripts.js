@@ -54,9 +54,13 @@ let videoGames = ['PS4', 'SWITCH','XBOX']
 
 console.log(videoGames[0])
 videoGames.pop() //remove ultimo item
-videoGames.push ('3DS') // adiciona
+videoGames.push ('3DS') // adiciona no final do array
 console.log(videoGames)
 
 //métodos e propriedades do array
 
 console.log(videoGames.length)
+
+let numeros =[1,2,3]
+let soma = numeros[0]+numeros[1]
+console.log(soma)

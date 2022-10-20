@@ -1,0 +1,7 @@
+//crie um array que os anos que o Brasil ganhou a copa 1959,1662,1970,1994,2002
+    let brasil = [ 1959,1662,1970,1994,2002,2022]
+//Interaja com array utilizado um loop, para mostrar no console a seguite mensagem, `O brasil ganhou a copa ${ano}`
+
+    brasil.forEach(function(ano) {
+        console.log(`O brasil ganhou a copa ${ano}`)
+    });
